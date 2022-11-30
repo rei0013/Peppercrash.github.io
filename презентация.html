@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js – The HTML Presentation Framework</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section   data-background="Ху-тао.png">
+					<h3>Уроки по HTMl</h3>
+					<p>
+						<small>Сделано <a href="https://vk.com/id704178274" style="color: red">Бобыльковой Светой</a></small>
+					</p>
+				</section>
+
+				<section  data-background="Ху-тао.png">
+					<h2>Div, A, Img, P</h2>
+
+				</section>
+
+				<!-- Example of nested vertical slides -->
+				<section>
+					<section  data-background="Ху-тао.png">
+				        <h3 style="color: #FF0000">Div, A,P</h3>
+						<p>Самый простой тег</p>
+						<p>Внутри мы пишем все <em>Параметры</em></p>
+						<br>
+					</section>
+				</section>
+
+				<section  data-background="Ху-тао.png">
+					<h2 style="color: #FF0000">Img</h2>
+					<p>
+					   Помогает вставить картинку с использованием тега href  и с адресом картинки<a href="https://slides.com" target="_blank"></a>.
+					</p>
+				</section>
+				<section  data-background="Ху-тао.png">
+					<h2 style="color: #FF0000">Параметры</h2>
+					<ul>
+						<li>Style<em>(размер,цвет,состояние,место)</em></li>
+					</ul>
+				</section>
+
+				<section  data-background="de8d631cdb8fe235618aa97328f591ec.png">
+				<section>
+						<h2 style="color: #FF0000">Основные теги HTML</h2>
+					</section>
+					<section>
+						<h2>Все теги:</h2>
+								<ol>
+						<li style="color: #FF0000">Inline<em>-Строчные элементы которые можно размещать рядом</em></li>
+						<li style="color: #FF0000">Block<em>-элементы отображаются на веб-странице в виде прямоугольника</em></li>
+						<li style="color: #FF0000">Inline-block<em>-Элементы,которые продолжают находиться в строке, но при это могут иметь важные свойства блока</em></li>
+					</ol>
+						<br>
+			</div>
+
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/zoom/zoom.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/search/search.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+
+			// Also available as an ES module, see:
+			// https://revealjs.com/initialization/
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: true,
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+			});
+		</script>
+	</body>
+</html>
